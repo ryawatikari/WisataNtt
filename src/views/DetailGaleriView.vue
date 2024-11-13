@@ -6,9 +6,6 @@
                     {{ galeriTerpilih.judul }}
                 </div>
                 <div class="fs-6">
-
-                </div>
-
                 <!-- carousel -->
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-12 col-lg-6 mt-5 mb-5">
@@ -133,6 +130,7 @@
 
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </div>
@@ -142,6 +140,7 @@
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { DetailGaleri } from '../../data';
+
 
   
   // Ambil ID dari route
@@ -156,6 +155,7 @@ import { DetailGaleri } from '../../data';
   onMounted(() => {
     ambilDataGaleri();
   });
+
 </script>
 
 <style scoped>

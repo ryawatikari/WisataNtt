@@ -35,8 +35,8 @@ const router = createRouter({
       component: TestimoniView
     },
     {
-      path: '/profil',
-      name: 'profil',
+      path: '/',
+      name: 'home',
       component: HomeView
     },
     {
@@ -46,8 +46,8 @@ const router = createRouter({
       props:true
     },
     {
-      path: '/login',
-      name: 'login',
+      path: '/hubungikami',
+      name: 'hubungikami',
       component: LoginView,
       props:true
     }
