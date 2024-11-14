@@ -73,11 +73,24 @@ export const DetailPesanan = [
             {
               id: 3,
               img: "../images/komodo3.jpg",
+            },
+            {
+              id: 4,
+              img: "../images/org1.jpg",
+            },
+            {
+              id: 5,
+              img: "../images/org2.jpg"
+            },
+            {
+              id: 6,
+              img: "../images/komodo3.jpg"
+            },
+            {
+              id: 7,
+              img: "../images/org-padar.jpg"
             }
         ],
-          
-        statisimg1 :"../images/org1.jpg",
-        statisimg2 :"../images/org2.jpg",
 
         // card
         judulcard :"Dari Labuan bajo jelajahi pulau komodo",
@@ -137,12 +150,29 @@ export const DetailPesanan = [
             },
             {
               id: 3,
-              img: "../images/taman-komodo.jpg",
+              img: "../images/kelo-the-best.jpg",
+            },
+            {
+              id: 4,
+              img: "../images/komodo5.png",
+            },
+            {
+              id: 5,
+              img: "../images/hotel-labuan.webp"
+            },
+            {
+              id: 6,
+              img: "../images/komodo3.jpg"
+            },
+            {
+              id: 7,
+              img: "../images/org-padar.jpg"
+            },
+            {
+              id: 8,
+              img: "../images/kelelawar.png"
             }
         ],
-          
-        statisimg1 :"../images/komodo.jpg",
-        statisimg2 :"../images/org-padar.jpg",
 
         // card
         judulcard :"6 Destinasi Favorit di Labuan Bajo",
@@ -207,11 +237,24 @@ export const DetailPesanan = [
             {
               id: 3,
               img: "../images/ruang-wae-rebo.jpg",
+            },
+            {
+              id: 4,
+              img: "../images/wae-rebo2.jpg",
+            },
+            {
+              id: 5,
+              img: "../images/org1-waerebo.jpg"
+            },
+            {
+              id: 6,
+              img: "../images/turis-wae-rebo.jpg"
+            },
+            {
+              id: 7,
+              img: "../images/wae-rebo3.jpg"
             }
         ],
-          
-        statisimg1 :"../images/org-waerebo.jpg",
-        statisimg2 :"../images/org1-waerebo.jpg",
 
         // card
         judulcard :"Tur Desa Wae Rebo yang Eksotis selama 2 hari 1 malam",
@@ -276,11 +319,24 @@ export const DetailPesanan = [
           {
             id: 3,
             img: "../images/ranjang-tur.png",
+          },
+          {
+            id: 4,
+            img: "../images/hotel-labuan.webp",
+          },
+          {
+            id: 5,
+            img: "../images/kelelawar.png"
+          },
+          {
+            id: 6,
+            img: "../images/org-padar.jpg"
+          },
+          {
+            id: 7,
+            img: "../images/pulau-padar1.jpg"
           }
       ],
-        
-      statisimg1 :"../image/komodo5.png",
-      statisimg2 :"../image/kelelawar.png",
 
       // card
       judulcard :"Komodo Tur Pribadi 4 Hari dengan Menginap di Hotel",
@@ -340,17 +396,29 @@ export const DetailPesanan = [
           },
           {
             id: 2,
-            img: "../images/Danau-weekuri-sumba.jpg",
+            img: "../images/Danau-Weekuri-sumba.jpg",
           },
           {
             id: 3,
             img: "../images/weekacura.jpg",
+          },
+          {
+            id: 4,
+            img: "../images/desa-umbbu-ngedo.jpg",
+          },
+          {
+            id: 5,
+            img: "../images/desa-ratenggaro.jpg"
+          },
+          {
+            id: 5,
+            img: "../images/west-sumba.jpg"
+          },
+          {
+            id: 6,
+            img: "../images/weekuri.jpg"
           }
       ],
-        
-      statisimg1 :"../image/desa-umbbu-ngedo.jpg",
-      statisimg2 :"../image/desa-ratenggaro.jpg",
-
       // card
       judulcard :" Tur Sehari Penuh Menjelajahi Sumba",
       iklan :"Jelajahi pesona autentik Sumba di Desa Ratenggaro, nikmati jernihnya Danau Weekuri, dan segarkan diri di Air Terjun Weekacura—destinasi sempurna untuk petualangan alam dan budaya yang memukau. Setiap sudutnya siap membuat Anda jatuh cinta!",
@@ -414,11 +482,20 @@ export const DetailPesanan = [
           {
             id: 3,
             img: "../images/AirTanggedu-Sumba-Timur.webp",
+          },
+          {
+            id: 4,
+            img: "../images/danau-weekuri.webp",
+          },
+          {
+            id: 5,
+            img: "../images/Air-Terjun-Tanggedu1.jpg"
+          },
+          {
+            id: 6,
+            img: "../images/air-terjun-tanggedu2.jpg"
           }
       ],
-        
-      statisimg1 :"../image/gua-rangko.jpg",
-      statisimg2 :"../image/air-tanggedu.jpg",
 
       // card
       judulcard :"Tur sehari penuh ke air terjun, bukit, dan pantai di Sumba",

@@ -1,6 +1,7 @@
 <template>
     <div>
         <div class="container mt-5" v-if="galeriTerpilih">
+           
             <div class="title">
                 <div class="fs-5 my-5">
                     {{ galeriTerpilih.judul }}
@@ -10,34 +11,20 @@
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-12 col-lg-6 mt-5 mb-5">
                         <div class="big-image">
-                            <div :id="'carouselExampleCaptions' + galeriTerpilih.id" class="carousel slide">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item"
-                                v-for="(imgData, imgIndex) in galeriTerpilih.image"
+                            <Carousel v-bind="config">
+                                <Slide v-for="(imgData, imgIndex) in galeriTerpilih.image"
                                 :key="imgIndex"
-                                :class="{ active: imgIndex === 0 }"
-                                >
-                                <img :src="imgData.img" class="d-block w-100" :alt="'image' + (imgIndex + 1)" />
-                                <div class="carousel-caption d-none d-md-block">
-                                    <!-- <h5>Pantai Liman</h5>
-                                    <p>Some representative placeholder content for the first slide.</p> -->
-                                </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" :data-bs-target="'#carouselExampleCaptions' + galeriTerpilih.id" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" :data-bs-target="'#carouselExampleCaptions' + galeriTerpilih.id" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
+                                :class="{ active: imgIndex === 0 }">
+                                <div class="carousel__item"><img :src="imgData.img" class="d-block w-100 p-3" :alt="'image' + (imgIndex + 1)" /></div>
+                                </Slide>
+
+                                <template #addons>
+                                <Navigation />
+                                <Pagination />
+                                <Carousel />
+                                <Slide />
+                                </template>
+                            </Carousel>
                         </div>
                     </div>
                 </div>
@@ -140,8 +127,8 @@
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { DetailGaleri } from '../../data';
-
-
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
   
   // Ambil ID dari route
   const route = useRoute();
@@ -155,6 +142,9 @@ import { DetailGaleri } from '../../data';
   onMounted(() => {
     ambilDataGaleri();
   });
+
+//   carousel
+
 
 </script>
 

@@ -9,53 +9,27 @@
           </p>
         </div>
   
-        <div class="row d-flex content">
+        <div class="row d-flex content justify-content-center">
             <div class="col-12 col-lg-8 mt-3 rounded-4">
                 <div class="big-img">
-                <div :id="'carouselExample' + pesananTerpilih.id" class="carousel slide">
-                    <div class="carousel-inner">
-                    <div
-                        class="carousel-item"
-                        v-for="(imgData, imgIndex) in pesananTerpilih.image"
+                    <Carousel>
+                        <Slide v-for="(imgData, imgIndex) in pesananTerpilih.image"
                         :key="imgIndex"
-                        :class="{ active: imgIndex === 0 }"
-                    >
-                        <img :src="imgData.img" class="d-block w-100" :alt="'image' + (imgIndex + 1)" />
-                    </div>
-                    </div>
+                        :class="{ active: imgIndex === 0 }">
+                        <div class="carousel__item">
+                            <img :src="imgData.img" class="d-block w-100" :alt="'image' + (imgIndex + 1)" />
+                        </div>
+                        </Slide>
 
-                    <button
-                    class="carousel-control-prev"
-                    type="button"
-                    :data-bs-target="'#carouselExample' + pesananTerpilih.id"
-                    data-bs-slide="prev"
-                    >
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                    class="carousel-control-next"
-                    type="button"
-                    :data-bs-target="'#carouselExample' + pesananTerpilih.id"
-                    data-bs-slide="next"
-                    >
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+                        <template #addons>
+                        <Carousel />
+                        <Slide />
+                        <Navigation />
+                        <Pagination />
+                        </template>
+                    </Carousel>
                 </div>
             </div>
-
-        <div class="col-12 col-lg-4 mt-4 d-flex flex-lg-column flex-row justify-content-between">
-            <div class="img m-2">
-            <img :src="pesananTerpilih.statisimg1" class="img-thumbnail h-100 w-100" alt="" />
-            </div>
-            <div class="img m-2">
-            <img :src="pesananTerpilih.statisimg2" class="img-thumbnail h-100 w-100" alt="" />
-            </div>
-        </div>
-
-
         <div class="description d-flex">
             <div class="row">
             <div class="col-12 col-lg-5">
@@ -90,6 +64,30 @@
             </div>
             </div>
         </div>
+
+        <!-- <div class="kontent">
+            
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-lg-7 col-md-12 mt-4 ">
+                    <Carousel v-bind="config">
+                        <Slide v-for="(imgData, imgIndex) in pesananTerpilih.imagesDua"
+                                :key="imgIndex"
+                                :class="{ active: imgIndex === 0 }">
+                        <div class="carousel__item">
+                            <img :src="imgData.img" class="d-block w-100" :alt="'imageDua' + (imgIndex + 1)" />
+                        </div>
+                        </Slide>
+
+                        <template #addons>
+                        <Carousel />
+                        <Slide />
+                        <Navigation />
+                        <Pagination />
+                        </template>
+                    </Carousel>
+                </div>
+            </div>
+        </div> -->
         </div>
 
         <!-- container -->
@@ -188,6 +186,8 @@
   import { ref, onMounted } from 'vue';
   import { useRoute } from 'vue-router';
   import { DetailPesanan } from '../../data';
+  import 'vue3-carousel/dist/carousel.css';
+  import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
   
   // Ambil ID dari route
   const route = useRoute();
@@ -201,6 +201,11 @@
   onMounted(() => {
     ambilDataPesanan();
   });
+
+  const config = {
+  itemsToShow: 2.5,
+  wrapAround: true,
+    };
   </script>
 
 
