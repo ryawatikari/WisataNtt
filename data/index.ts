@@ -2,7 +2,7 @@ export const pesanan = [
     {
         id: 1,
         judul :"Dari Labuan bajo jelajahi pulau komodo",
-        image :"src/assets/komodo.jpg",
+        image :"/public/images/komodo.jpg",
         informasi:"9 jam. Tanpa antri. penjemputan tersedia",
         harga:"1.265.000",
         fasilitas: "Transportasi speedboat, guide lokal, snack dan air mineral."
@@ -10,7 +10,7 @@ export const pesanan = [
     {
         id: 2,
         judul :"Jelajahi 6 Destinasi Favorit di labuan bajo",
-        image :"src/assets/tur-komod.jpg",
+        image :"/public/images/tur-komod.jpg",
         informasi:"10 jam. Grup kecil. penjemputan tersedia",
         harga:"2.500.000",
         fasilitas: " Transportasi perahu tradisional, makan siang, perlengkapan snorkeling."
@@ -18,7 +18,7 @@ export const pesanan = [
     {
         id: 3,
         judul :"Tur Desa Wae Rebo yang Eksotis selama 2 hari 1 malam",
-        image :"src/assets/wae-rebo2.jpg",
+        image :"/public/images/wae-rebo2.jpg",
         informasi:"2 hari. penjemputan tersedia.",
         harga:"2.650.000",
         fasilitas: " Transportasi jeep 4x4, penginapan tradisional, makan malam khas."
@@ -26,7 +26,7 @@ export const pesanan = [
     {
         id: 4,
         judul :"Komodo Tur Pribadi 4 Hari dengan Menginap di Hotel",
-        image :"src/assets/hotel-labuan.webp",
+        image :"/public/images/hotel-labuan.webp",
         informasi:"4 hari. Grup pribadi. penjemputan tersedia.",
         harga:"14.001.822",
         fasilitas: "Transportasi motor sewa, penginapan di tepi pantai."
@@ -34,7 +34,7 @@ export const pesanan = [
     {
         id: 5,
         judul :"Dari Bandara Tambolaka : Tur Sehari Penuh Menjelajahi Sumba",
-        image :"src/assets/west-sumba.jpg",
+        image :"/public/images/west-sumba.jpg",
         informasi:"12 jam. penjemputan tersedia.",
         harga:"4.990.000",
         fasilitas: "Transportasi mobil sewa, sarapan di lokasi."
@@ -42,7 +42,7 @@ export const pesanan = [
     {
         id: 6,
         judul :"Tur sehari penuh ke air terjun, bukit, dan pantai di Sumba",
-        image :"src/assets/gua-rangko.jpg",
+        image :"/public/images/gua-rangko.jpg",
         informasi:"12 jam. Grup Kecil.",
         harga:"550.000",
         fasilitas: "Transportasi jeep sewa, guide lokal, tiket masuk."
@@ -64,20 +64,20 @@ export const DetailPesanan = [
         image: [
             {
               id: 1,
-              img:  "/src/assets/komodo1.jpg",
+              img:  "/public/images/komodo1.jpg",
             },
             {
               id: 2,
-              img: "/src/assets/komodo2.jpg",
+              img: "/public/images/komodo2.jpg",
             },
             {
               id: 3,
-              img: "/src/assets/komodo3.jpg",
+              img: "/public/images/komodo3.jpg",
             }
         ],
           
-        statisimg1 :"/src/assets/org1.jpg",
-        statisimg2 :"/src/assets/org2.jpg",
+        statisimg1 :"/public/images/org1.jpg",
+        statisimg2 :"/public/images/org2.jpg",
 
         // card
         judulcard :"Dari Labuan bajo jelajahi pulau komodo",
@@ -129,20 +129,20 @@ export const DetailPesanan = [
         image: [
             {
               id: 1,
-              img:  "/src/assets/tur-komod.jpg",
+              img:  "/public/images/tur-komod.jpg",
             },
             {
               id: 2,
-              img: "/src/assets/org-pulau-padar.jpg",
+              img: "/public/images/org-pulau-padar.jpg",
             },
             {
               id: 3,
-              img: "/src/assets/taman-komodo.jpg",
+              img: "/public/images/taman-komodo.jpg",
             }
         ],
           
-        statisimg1 :"/src/assets/komodo.jpg",
-        statisimg2 :"/src/assets/org-padar.jpg",
+        statisimg1 :"/public/images/komodo.jpg",
+        statisimg2 :"/public/images/org-padar.jpg",
 
         // card
         judulcard :"6 Destinasi Favorit di Labuan Bajo",
@@ -198,20 +198,20 @@ export const DetailPesanan = [
         image: [
             {
               id: 1,
-              img:  "/src/assets/wae-rebo.jpg",
+              img:  "/public/images/wae-rebo.jpg",
             },
             {
               id: 2,
-              img: "/src/assets/org-waerebo.jpg",
+              img: "/public/images/org-waerebo.jpg",
             },
             {
               id: 3,
-              img: "/src/assets/ruang-wae-rebo.jpg",
+              img: "/public/images/ruang-wae-rebo.jpg",
             }
         ],
           
-        statisimg1 :"/src/assets/org-waerebo.jpg",
-        statisimg2 :"/src/assets/org1-waerebo.jpg",
+        statisimg1 :"/public/images/org-waerebo.jpg",
+        statisimg2 :"/public/images/org1-waerebo.jpg",
 
         // card
         judulcard :"Tur Desa Wae Rebo yang Eksotis selama 2 hari 1 malam",
@@ -267,20 +267,20 @@ export const DetailPesanan = [
       image: [
           {
             id: 1,
-            img:  "/src/assets/pulau-kelor.png",
+            img:  "/public/images/pulau-kelor.png",
           },
           {
             id: 2,
-            img: "/src/assets/komodo4.png",
+            img: "/public/images/komodo4.png",
           },
           {
             id: 3,
-            img: "/src/assets/ranjang-tur.png",
+            img: "/public/images/ranjang-tur.png",
           }
       ],
         
-      statisimg1 :"/src/assets/komodo5.png",
-      statisimg2 :"/src/assets/kelelawar.png",
+      statisimg1 :"/public/image/komodo5.png",
+      statisimg2 :"/public/image/kelelawar.png",
 
       // card
       judulcard :"Komodo Tur Pribadi 4 Hari dengan Menginap di Hotel",
@@ -336,20 +336,20 @@ export const DetailPesanan = [
       image: [
           {
             id: 1,
-            img:  "/src/assets/west-sumba.jpg",
+            img:  "/public/images/west-sumba.jpg",
           },
           {
             id: 2,
-            img: "/src/assets/Danau-weekuri-sumba.jpg",
+            img: "/public/images/Danau-weekuri-sumba.jpg",
           },
           {
             id: 3,
-            img: "/src/assets/weekacura.jpg",
+            img: "/public/images/weekacura.jpg",
           }
       ],
         
-      statisimg1 :"/src/assets/desa-umbbu-ngedo.jpg",
-      statisimg2 :"/src/assets/desa-ratenggaro.jpg",
+      statisimg1 :"/public/image/desa-umbbu-ngedo.jpg",
+      statisimg2 :"/public/image/desa-ratenggaro.jpg",
 
       // card
       judulcard :" Tur Sehari Penuh Menjelajahi Sumba",
@@ -405,20 +405,20 @@ export const DetailPesanan = [
       image: [
           {
             id: 1,
-            img:  "/src/assets/pantai-walakiri.jpg",
+            img:  "/public/images/pantai-walakiri.jpg",
           },
           {
             id: 2,
-            img: "/src/assets/tenau.jpg",
+            img: "/public/images/tenau.jpg",
           },
           {
             id: 3,
-            img: "/src/assets/AirTanggedu-Sumba-Timur.webp",
+            img: "/public/images/AirTanggedu-Sumba-Timur.webp",
           }
       ],
         
-      statisimg1 :"/src/assets/gua-rangko.jpg",
-      statisimg2 :"/src/assets/air-tanggedu.jpg",
+      statisimg1 :"/public/image/gua-rangko.jpg",
+      statisimg2 :"/public/image/air-tanggedu.jpg",
 
       // card
       judulcard :"Tur sehari penuh ke air terjun, bukit, dan pantai di Sumba",
@@ -471,42 +471,42 @@ export const DetailPesanan = [
 export const Galeri = [
   {
     id : 1,
-    image:"src/assets/padar1.jpg",
+    image:"/public/images/padar1.jpg",
     judul : "Pulau Padar",
     lokasi : "Taman Nasional Komodo, Manggarai Barat.",
     harga : "Rp 300.000 - Rp 500.000"
   },
   {
     id : 2,
-    image:"src/assets/pink-beach.jpg",
+    image:"/public/images/pink-beach.jpg",
     judul : "Pantai Merah Muda",
     lokasi: "Pulau Komodo, NTT.",
     harga:"Rp 100.000 - Rp 250.000"
   },
   {
     id : 3,
-    image:"src/assets/wae-rebo1.jpg",
+    image:"/public/images/wae-rebo1.jpg",
     judul :"Wae Rebo",
     lokasi:"Manggarai, Flores, NTT.",
     harga :"Rp 350.000 - Rp 500.000"
   },
   {
     id : 4,
-    image:"src/assets/pulau-semau-pantai-liman.webp",
+    image:"/public/images/pulau-semau-pantai-liman.webp",
     judul:"Pantai Liman",
     lokasi:"Pulau Semau, NTT.",
     harga:"Rp 50.000 – Rp 150.000"
   },
   {
     id : 5,
-    image:"src/assets/wolobobo-bajawa.jpg",
+    image:"/public/images/wolobobo-bajawa.jpg",
     judul :"Bukit Wolobobo",
     lokasi: "Bajawa, Flores, NTT.",
     harga:"Rp 20.000 – Rp 50.000"
   },
   {
     id : 6,
-    image:"src/assets/AirTanggedu-Sumba-Timur.webp",
+    image:"/public/images/AirTanggedu-Sumba-Timur.webp",
     judul :"Air Terjun Tanggedu",
     lokasi :"Sumba Timur, NTT.",
     harga:"Rp 50.000 – Rp 100.000"
@@ -522,15 +522,15 @@ export const DetailGaleri = [
     image:[
       {
         id:1,
-        img:"/src/assets/pulau-padar1.jpg"
+        img:"/public/images/pulau-padar1.jpg"
       },
       {
         id:2,
-        img:"/src/assets/pulau-padar3.jpg"
+        img:"/public/images/pulau-padar3.jpg"
       },
       {
         id:3,
-        img:"/src/assets/pulau-padar2.jpg"
+        img:"/public/images/pulau-padar2.jpg"
       }
       
     ],
@@ -587,15 +587,15 @@ export const DetailGaleri = [
     image:[
       {
         id:1,
-        img:"/src/assets/beach-pink1.jpg"
+        img:"/public/images/beach-pink1.jpg"
       },
       {
         id:2,
-        img:"/src/assets/beach-pink2.jpg"
+        img:"/public/images/beach-pink2.jpg"
       },
       {
         id:3,
-        img:"/src/assets/pink-beach1.jpg"
+        img:"/public/images/pink-beach1.jpg"
       }
       
     ],
@@ -652,15 +652,15 @@ export const DetailGaleri = [
     image:[
       {
         id:1,
-        img:"/src/assets/wae-rebo2.jpg"
+        img:"/public/images/wae-rebo2.jpg"
       },
       {
         id:2,
-        img:"/src/assets/wae-rebo.jpg"
+        img:"/public/images/wae-rebo.jpg"
       },
       {
         id:3,
-        img:"/src/assets/wae-rebo1.jpg"
+        img:"/public/images/wae-rebo1.jpg"
       }
       
     ],
@@ -717,15 +717,15 @@ export const DetailGaleri = [
     image:[
       {
         id:1,
-        img:"/src/assets/pulau-semau1.jpg"
+        img:"/public/images/pulau-semau1.jpg"
       },
       {
         id:2,
-        img:"/src/assets/pulau-semau-pantai-liman.webp"
+        img:"/public/images/pulau-semau-pantai-liman.webp"
       },
       {
         id:3,
-        img:"/src/assets/bukit-liman.jpg"
+        img:"/public/images/bukit-liman.jpg"
       }
       
     ],
@@ -782,15 +782,15 @@ export const DetailGaleri = [
     image:[
       {
         id:1,
-        img:"/src/assets/wolobobo1.jpg"
+        img:"/public/images/wolobobo1.jpg"
       },
       {
         id:2,
-        img:"/src/assets/wolobobo2.png"
+        img:"/public/images/wolobobo2.png"
       },
       {
         id:3,
-        img:"/src/assets/wolobobo-bajawa.jpg"
+        img:"/public/images/wolobobo-bajawa.jpg"
       }
       
     ],
@@ -847,15 +847,15 @@ export const DetailGaleri = [
     image:[
       {
         id:1,
-        img:"/src/assets/AirTanggedu-Sumba-Timur.webp"
+        img:"/public/images/AirTanggedu-Sumba-Timur.webp"
       },
       {
         id:2,
-        img:"/src/assets/Air-Terjun-Tanggedu1.jpg"
+        img:"/public/images/Air-Terjun-Tanggedu1.jpg"
       },
       {
         id:3,
-        img:"/src/assets/air-terjun-tanggedu2.jpg"
+        img:"/public/images/air-terjun-tanggedu2.jpg"
       }
       
     ],

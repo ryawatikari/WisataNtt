@@ -26,7 +26,7 @@
  } */
   
   .home{
-    background-image: url(../assets/kelo-the-best.jpg);
+    background-image: url(/public/assets/kelo-the-best.jpg);
     background-size: cover;
     min-height: 100vh;
     width: 100%;

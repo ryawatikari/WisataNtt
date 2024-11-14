@@ -33,7 +33,7 @@
               </div>
               
               <div class="col-md-8 col-lg-7 col-xl-6">
-                <img src="../assets/bg-layanan3.png"
+                <img src="/public/images/bg-layanan3.png"
                   class="img-fluid" alt="Phone image">
               </div>
               <div class="col-md-4 col-lg-6 col-xl-6 mx-auto mt-3">
