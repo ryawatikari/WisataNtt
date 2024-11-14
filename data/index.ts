@@ -2,7 +2,7 @@ export const pesanan = [
     {
         id: 1,
         judul :"Dari Labuan bajo jelajahi pulau komodo",
-        image :"/public/images/komodo.jpg",
+        image :"../images/komodo.jpg",
         informasi:"9 jam. Tanpa antri. penjemputan tersedia",
         harga:"1.265.000",
         fasilitas: "Transportasi speedboat, guide lokal, snack dan air mineral."
@@ -10,7 +10,7 @@ export const pesanan = [
     {
         id: 2,
         judul :"Jelajahi 6 Destinasi Favorit di labuan bajo",
-        image :"/public/images/tur-komod.jpg",
+        image :"../images/tur-komod.jpg",
         informasi:"10 jam. Grup kecil. penjemputan tersedia",
         harga:"2.500.000",
         fasilitas: " Transportasi perahu tradisional, makan siang, perlengkapan snorkeling."
@@ -18,7 +18,7 @@ export const pesanan = [
     {
         id: 3,
         judul :"Tur Desa Wae Rebo yang Eksotis selama 2 hari 1 malam",
-        image :"/public/images/wae-rebo2.jpg",
+        image :"../images/wae-rebo2.jpg",
         informasi:"2 hari. penjemputan tersedia.",
         harga:"2.650.000",
         fasilitas: " Transportasi jeep 4x4, penginapan tradisional, makan malam khas."
@@ -26,7 +26,7 @@ export const pesanan = [
     {
         id: 4,
         judul :"Komodo Tur Pribadi 4 Hari dengan Menginap di Hotel",
-        image :"/public/images/hotel-labuan.webp",
+        image :"../images/hotel-labuan.webp",
         informasi:"4 hari. Grup pribadi. penjemputan tersedia.",
         harga:"14.001.822",
         fasilitas: "Transportasi motor sewa, penginapan di tepi pantai."
@@ -34,7 +34,7 @@ export const pesanan = [
     {
         id: 5,
         judul :"Dari Bandara Tambolaka : Tur Sehari Penuh Menjelajahi Sumba",
-        image :"/public/images/west-sumba.jpg",
+        image :"../images/west-sumba.jpg",
         informasi:"12 jam. penjemputan tersedia.",
         harga:"4.990.000",
         fasilitas: "Transportasi mobil sewa, sarapan di lokasi."
@@ -42,7 +42,7 @@ export const pesanan = [
     {
         id: 6,
         judul :"Tur sehari penuh ke air terjun, bukit, dan pantai di Sumba",
-        image :"/public/images/gua-rangko.jpg",
+        image :"../images/gua-rangko.jpg",
         informasi:"12 jam. Grup Kecil.",
         harga:"550.000",
         fasilitas: "Transportasi jeep sewa, guide lokal, tiket masuk."
