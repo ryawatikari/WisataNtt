@@ -64,20 +64,20 @@ export const DetailPesanan = [
         image: [
             {
               id: 1,
-              img:  "/public/images/komodo1.jpg",
+              img:  "../images/komodo1.jpg",
             },
             {
               id: 2,
-              img: "/public/images/komodo2.jpg",
+              img: "../images/komodo2.jpg",
             },
             {
               id: 3,
-              img: "/public/images/komodo3.jpg",
+              img: "../images/komodo3.jpg",
             }
         ],
           
-        statisimg1 :"/public/images/org1.jpg",
-        statisimg2 :"/public/images/org2.jpg",
+        statisimg1 :"../images/org1.jpg",
+        statisimg2 :"../images/org2.jpg",
 
         // card
         judulcard :"Dari Labuan bajo jelajahi pulau komodo",
@@ -129,20 +129,20 @@ export const DetailPesanan = [
         image: [
             {
               id: 1,
-              img:  "/public/images/tur-komod.jpg",
+              img:  "../images/tur-komod.jpg",
             },
             {
               id: 2,
-              img: "/public/images/org-pulau-padar.jpg",
+              img: "../images/org-pulau-padar.jpg",
             },
             {
               id: 3,
-              img: "/public/images/taman-komodo.jpg",
+              img: "../images/taman-komodo.jpg",
             }
         ],
           
-        statisimg1 :"/public/images/komodo.jpg",
-        statisimg2 :"/public/images/org-padar.jpg",
+        statisimg1 :"../images/komodo.jpg",
+        statisimg2 :"../images/org-padar.jpg",
 
         // card
         judulcard :"6 Destinasi Favorit di Labuan Bajo",
@@ -198,20 +198,20 @@ export const DetailPesanan = [
         image: [
             {
               id: 1,
-              img:  "/public/images/wae-rebo.jpg",
+              img:  "../images/wae-rebo.jpg",
             },
             {
               id: 2,
-              img: "/public/images/org-waerebo.jpg",
+              img: "../images/org-waerebo.jpg",
             },
             {
               id: 3,
-              img: "/public/images/ruang-wae-rebo.jpg",
+              img: "../images/ruang-wae-rebo.jpg",
             }
         ],
           
-        statisimg1 :"/public/images/org-waerebo.jpg",
-        statisimg2 :"/public/images/org1-waerebo.jpg",
+        statisimg1 :"../images/org-waerebo.jpg",
+        statisimg2 :"../images/org1-waerebo.jpg",
 
         // card
         judulcard :"Tur Desa Wae Rebo yang Eksotis selama 2 hari 1 malam",
@@ -267,20 +267,20 @@ export const DetailPesanan = [
       image: [
           {
             id: 1,
-            img:  "/public/images/pulau-kelor.png",
+            img:  "../images/pulau-kelor.png",
           },
           {
             id: 2,
-            img: "/public/images/komodo4.png",
+            img: "../images/komodo4.png",
           },
           {
             id: 3,
-            img: "/public/images/ranjang-tur.png",
+            img: "../images/ranjang-tur.png",
           }
       ],
         
-      statisimg1 :"/public/image/komodo5.png",
-      statisimg2 :"/public/image/kelelawar.png",
+      statisimg1 :"../image/komodo5.png",
+      statisimg2 :"../image/kelelawar.png",
 
       // card
       judulcard :"Komodo Tur Pribadi 4 Hari dengan Menginap di Hotel",
@@ -336,20 +336,20 @@ export const DetailPesanan = [
       image: [
           {
             id: 1,
-            img:  "/public/images/west-sumba.jpg",
+            img:  "../images/west-sumba.jpg",
           },
           {
             id: 2,
-            img: "/public/images/Danau-weekuri-sumba.jpg",
+            img: "../images/Danau-weekuri-sumba.jpg",
           },
           {
             id: 3,
-            img: "/public/images/weekacura.jpg",
+            img: "../images/weekacura.jpg",
           }
       ],
         
-      statisimg1 :"/public/image/desa-umbbu-ngedo.jpg",
-      statisimg2 :"/public/image/desa-ratenggaro.jpg",
+      statisimg1 :"../image/desa-umbbu-ngedo.jpg",
+      statisimg2 :"../image/desa-ratenggaro.jpg",
 
       // card
       judulcard :" Tur Sehari Penuh Menjelajahi Sumba",
@@ -405,20 +405,20 @@ export const DetailPesanan = [
       image: [
           {
             id: 1,
-            img:  "/public/images/pantai-walakiri.jpg",
+            img:  "../images/pantai-walakiri.jpg",
           },
           {
             id: 2,
-            img: "/public/images/tenau.jpg",
+            img: "../images/tenau.jpg",
           },
           {
             id: 3,
-            img: "/public/images/AirTanggedu-Sumba-Timur.webp",
+            img: "../images/AirTanggedu-Sumba-Timur.webp",
           }
       ],
         
-      statisimg1 :"/public/image/gua-rangko.jpg",
-      statisimg2 :"/public/image/air-tanggedu.jpg",
+      statisimg1 :"../image/gua-rangko.jpg",
+      statisimg2 :"../image/air-tanggedu.jpg",
 
       // card
       judulcard :"Tur sehari penuh ke air terjun, bukit, dan pantai di Sumba",
