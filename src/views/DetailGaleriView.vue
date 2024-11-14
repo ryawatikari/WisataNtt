@@ -2,7 +2,7 @@
     <div>
         <div class="container mt-5" v-if="galeriTerpilih">
             <div class="title">
-                <div class="fs-5">
+                <div class="fs-5 my-5">
                     {{ galeriTerpilih.judul }}
                 </div>
                 <div class="fs-6">
