@@ -471,42 +471,42 @@ export const DetailPesanan = [
 export const Galeri = [
   {
     id : 1,
-    image:"/public/images/padar1.jpg",
+    image:"../images/padar1.jpg",
     judul : "Pulau Padar",
     lokasi : "Taman Nasional Komodo, Manggarai Barat.",
     harga : "Rp 300.000 - Rp 500.000"
   },
   {
     id : 2,
-    image:"/public/images/pink-beach.jpg",
+    image:"../images/pink-beach.jpg",
     judul : "Pantai Merah Muda",
     lokasi: "Pulau Komodo, NTT.",
     harga:"Rp 100.000 - Rp 250.000"
   },
   {
     id : 3,
-    image:"/public/images/wae-rebo1.jpg",
+    image:"../images/wae-rebo1.jpg",
     judul :"Wae Rebo",
     lokasi:"Manggarai, Flores, NTT.",
     harga :"Rp 350.000 - Rp 500.000"
   },
   {
     id : 4,
-    image:"/public/images/pulau-semau-pantai-liman.webp",
+    image:"../images/pulau-semau-pantai-liman.webp",
     judul:"Pantai Liman",
     lokasi:"Pulau Semau, NTT.",
     harga:"Rp 50.000 – Rp 150.000"
   },
   {
     id : 5,
-    image:"/public/images/wolobobo-bajawa.jpg",
+    image:"../images/wolobobo-bajawa.jpg",
     judul :"Bukit Wolobobo",
     lokasi: "Bajawa, Flores, NTT.",
     harga:"Rp 20.000 – Rp 50.000"
   },
   {
     id : 6,
-    image:"/public/images/AirTanggedu-Sumba-Timur.webp",
+    image:"../images/AirTanggedu-Sumba-Timur.webp",
     judul :"Air Terjun Tanggedu",
     lokasi :"Sumba Timur, NTT.",
     harga:"Rp 50.000 – Rp 100.000"
