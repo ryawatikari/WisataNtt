@@ -7,7 +7,7 @@
                         <div class="ratio ratio-1x1 mt-5">
                             
                             <video controls play loop>
-                                <source src="../assets/flobamora.mp4" type="video/mp4">
+                                <source src="/public/images/flobamora.mp4" type="video/mp4">
                             </video>
                         </div>
                     </div>
