@@ -37,7 +37,7 @@
                   class="img-fluid" alt="Phone image">
               </div>
               <div class="col-md-4 col-lg-6 col-xl-6 mx-auto mt-3">
-                    <h5 class="text-uppercase mb-4 font-weight-bold">Hubungi Kami</h5>
+                    <h4 class="text-uppercase mb-4 font-weight-bold">Hubungi Kami</h4>
                     <form>
                     <div class="form-group my-2">
                         <input type="text" class="form-control" placeholder="Nama Lengkap" required>
