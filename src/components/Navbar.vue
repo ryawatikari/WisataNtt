@@ -9,7 +9,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav ">
                         <li class="nav-item p-2">
-                        <router-link class="nav-link active" aria-current="page" to="/">Profil</router-link>
+                        <router-link class="nav-link active" aria-current="page" to="/">Home</router-link>
                         </li>
                         <li class="nav-item p-2">
                         <router-link class="nav-link" to="galeri">Galeri</router-link>
