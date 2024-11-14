@@ -522,15 +522,15 @@ export const DetailGaleri = [
     image:[
       {
         id:1,
-        img:"/public/images/pulau-padar1.jpg"
+        img:"../images/pulau-padar1.jpg"
       },
       {
         id:2,
-        img:"/public/images/pulau-padar3.jpg"
+        img:"../images/pulau-padar3.jpg"
       },
       {
         id:3,
-        img:"/public/images/pulau-padar2.jpg"
+        img:"../images/pulau-padar2.jpg"
       }
       
     ],
@@ -587,15 +587,15 @@ export const DetailGaleri = [
     image:[
       {
         id:1,
-        img:"/public/images/beach-pink1.jpg"
+        img:"../images/beach-pink1.jpg"
       },
       {
         id:2,
-        img:"/public/images/beach-pink2.jpg"
+        img:"../images/beach-pink2.jpg"
       },
       {
         id:3,
-        img:"/public/images/pink-beach1.jpg"
+        img:"../images/pink-beach1.jpg"
       }
       
     ],
@@ -652,15 +652,15 @@ export const DetailGaleri = [
     image:[
       {
         id:1,
-        img:"/public/images/wae-rebo2.jpg"
+        img:"../images/wae-rebo2.jpg"
       },
       {
         id:2,
-        img:"/public/images/wae-rebo.jpg"
+        img:"../images/wae-rebo.jpg"
       },
       {
         id:3,
-        img:"/public/images/wae-rebo1.jpg"
+        img:"../images/wae-rebo1.jpg"
       }
       
     ],
@@ -717,15 +717,15 @@ export const DetailGaleri = [
     image:[
       {
         id:1,
-        img:"/public/images/pulau-semau1.jpg"
+        img:"../images/pulau-semau1.jpg"
       },
       {
         id:2,
-        img:"/public/images/pulau-semau-pantai-liman.webp"
+        img:"../images/pulau-semau-pantai-liman.webp"
       },
       {
         id:3,
-        img:"/public/images/bukit-liman.jpg"
+        img:"../images/bukit-liman.jpg"
       }
       
     ],
@@ -782,15 +782,15 @@ export const DetailGaleri = [
     image:[
       {
         id:1,
-        img:"/public/images/wolobobo1.jpg"
+        img:"../images/wolobobo1.jpg"
       },
       {
         id:2,
-        img:"/public/images/wolobobo2.png"
+        img:"../images/wolobobo2.png"
       },
       {
         id:3,
-        img:"/public/images/wolobobo-bajawa.jpg"
+        img:"../images/wolobobo-bajawa.jpg"
       }
       
     ],
@@ -847,15 +847,15 @@ export const DetailGaleri = [
     image:[
       {
         id:1,
-        img:"/public/images/AirTanggedu-Sumba-Timur.webp"
+        img:"../images/AirTanggedu-Sumba-Timur.webp"
       },
       {
         id:2,
-        img:"/public/images/Air-Terjun-Tanggedu1.jpg"
+        img:"../images/Air-Terjun-Tanggedu1.jpg"
       },
       {
         id:3,
-        img:"/public/images/air-terjun-tanggedu2.jpg"
+        img:"../images/air-terjun-tanggedu2.jpg"
       }
       
     ],
