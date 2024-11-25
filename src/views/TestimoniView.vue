@@ -5,7 +5,6 @@
                 <div class="row justify-content-start kontent">
                     <div class="col-12 col-lg-6">
                         <div class="ratio ratio-1x1 mt-5">
-                            
                             <video controls play loop>
                                 <source src="/public/images/flobamora.mp4" type="video/mp4">
                             </video>
