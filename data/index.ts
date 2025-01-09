@@ -105,6 +105,14 @@ export const DetailPesanan = [
         deskripsi2 :"Wisatawan yang datang tentu saja tidak akan melewatlan kesempatan snorkeling di pantai ini melihat bagaimana kawanan ikan hisa berenang kesana kemari.",
         deskripsi3 :"Potensi yang dimiliki Labuan Bajo memang tidak disia - siakan oleh pemerintah setempat, hal ini ditunjukkan dengan pembangunan berbagai fasilitas yang mampu menarik lebih banyak pengunjung lagi",
 
+
+        // RincianAcara: [
+        //   {
+        //     acara: [
+              
+        //     ]
+        //   }
+        // ],
         // rincian acara
         judulLokasiPenjemputan:"Lokasi awal/penjemputan",
         lokasiPenjemputan :"Tergantung pada opsi yang dipilih",
@@ -188,6 +196,57 @@ export const DetailPesanan = [
         deskripsi3 :"Potensi yang dimiliki Labuan Bajo memang tidak disia - siakan oleh pemerintah setempat, hal ini ditunjukkan dengan pembangunan berbagai fasilitas yang mampu menarik lebih banyak pengunjung lagi",
 
         // rincian acara
+        // RincianAcara: [
+        //   {
+        //     id: 1,
+        //     judulLokasiSatu: "Lokasi awal/penjemputan",
+        //     kegiatanPertama: "Tergantung pada opsi yang dipilih",
+        //     durasiSatu: "(1 jam)",
+        //     color: "blue"
+        //   },
+        //   {
+        //     id: 2,
+        //     judulLokasiDua: "Labuan Bajo",
+        //     kegiatanDua: "Kunjungi, Tur berpemandu, Berjalan",
+        //     durasiDua: "(1.5 jam)",
+        //     color: "red"
+        //   },
+        //   {
+        //     id: 3,
+        //     judulLokasiTiga: "Pulau Padar",
+        //     kegiatanTiga: "Kunjungi, Hiking (Biaya tambahan)",
+        //     durasiTiga: "(1.5 jam)",
+        //     color: "green"
+        //   },
+        //   {
+        //     id: 4,
+        //     judulLokasiEmpat: "Pantai Pink Komodo",
+        //     kegiatanEmpat: "Berhenti foto, Kunjungi, Tamasya, Hiking",
+        //     durasiEmpat: "(1 jam)",
+        //     color: "orange"
+        //   },
+        //   {
+        //     id: 5,
+        //     judulLokasiLima: "Pulau Komodo",
+        //     kegiatanLima: "Kunjungi, Tamasya, Berjalan (Biaya tambahan)",
+        //     durasiLima: "(1.5 jam)",
+        //     color: "blue"
+        //   },
+        //   {
+        //     id: 6,
+        //     judulLokasiEnam: "Perkemahan",
+        //     kegiatanEnam: "Kunjungi, Berenang, Snorkeling",
+        //     durasiEnam: "(2 jam)",
+        //     color: "red"
+        //   },
+        //   {
+        //     id: 7,
+        //     judulLokasiTujuh: "3 lokasi pengantaran:",
+        //     kegiatanTujuh: "Tergantung Pada Opsi yang dipilih",
+        //     durasiTujuh: "(2 jam)",
+
+        //   }
+        // ],
         judulLokasiPenjemputan:"2 Pilihan Lokasi penjemputan",
         lokasiPenjemputan :"GV8J+W38, Bougenvil",
         judulLokasiPertama:"Pulau Padar",
@@ -543,6 +602,62 @@ export const DetailPesanan = [
       // maps
       mapsLink :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d404122.7175623682!2d119.17480564881357!3d-9.46055773659411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c4ad1cd2fa1645d%3A0xb1497aedd07a3363!2sBandar%20Udara%20Lede%20Kalumbang!5e0!3m2!1sid!2sid!4v1730711001704!5m2!1sid!2sid"
     }
+];
+
+export const RincianAcara =[
+  {
+    PaketSatu: [
+      {
+        id: 1,
+        judulLokasi: "Lokasi awal/penjemputan",
+        kegiatanPertama: "Tergantung pada opsi yang dipilih",
+        durasi: "(1 jam)",
+        color: "blue"
+      },
+      {
+        id: 2,
+        judulLokasi: "Labuan Bajo",
+        kegiatanPertama: "Kunjungi, Tur berpemandu, Berjalan",
+        durasi: "(1.5 jam)",
+        color: "red"
+      },
+      {
+        id: 3,
+        judulLokasi: "Pulau Padar",
+        kegiatanPertama: "Kunjungi, Hiking (Biaya tambahan)",
+        durasi: "(1.5 jam)",
+        color: "green"
+      },
+      {
+        id: 4,
+        judulLokasi: "Pantai Pink Komodo",
+        kegiatanPertama: "Berhenti foto, Kunjungi, Tamasya, Hiking",
+        durasi: "(1 jam)",
+        color: "orange"
+      },
+      {
+        id: 5,
+        judulLokasi: "Pulau Komodo",
+        kegiatanPertama: "Kunjungi, Tamasya, Berjalan (Biaya tambahan)",
+        durasi: "(1.5 jam)",
+        color: "blue"
+      },
+      {
+        id: 6,
+        judulLokasi: "Perkemahan",
+        kegiatanPertama: "Kunjungi, Berenang, Snorkeling",
+        durasi: "(2 jam)",
+        color: "red"
+      },
+      {
+        id: 7,
+        judulLokasi: "3 lokasi pengantaran:",
+        kegiatanPertama: "Tergantung Pada Opsi yang dipilih",
+        durasi: "(2 jam)",
+        color: "green"
+      }
+    ]
+  }
 ];
 
 export const Galeri = [

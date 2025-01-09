@@ -98,12 +98,12 @@
                     
                     <div class="col-12 col-lg-6">
                         <h4>Rincian Acara</h4>
-                        <div class="timeline p-4 block mb-4">
-                            <div class="tl-item active">
+                        <div class="timeline p-4 block mb-4" v-if="RincianAcara">
+                            <div class="tl-item active" v-for="data in RincianAcara" :key="data.id">
                                 <div class="tl-dot b-warning"></div>
                                 <div class="tl-content">
-                                    <div class="fs-5 fw-bold">{{ pesananTerpilih.judulLokasiPenjemputan }}</div>
-                                    <div class="tl-date text-muted mt-1">{{ pesananTerpilih.lokasiPenjemputan }}</div>
+                                    <div class="fs-5 fw-bold"></div>
+                                    <div class="tl-date text-muted mt-1"></div>
                                 </div>
                             </div>
                             <div class="tl-item">
@@ -185,7 +185,7 @@
   <script setup>
   import { ref, onMounted } from 'vue';
   import { useRoute } from 'vue-router';
-  import { DetailPesanan } from '../../data';
+  import { DetailPesanan, RincianAcara } from '../../data';
   import 'vue3-carousel/dist/carousel.css';
   import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
   
